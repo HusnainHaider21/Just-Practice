@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.logo{
+    color: black;
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    background-color: #f0f0f0;
+}
+
+nav ul li i{
+    padding-top: 20px;
+}
+
+
+.sideBar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: -10px 0px 10p rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sideBar li{
+   width: 100%;
+}
+
+.sideBar a{
+    width: 100%;
+ }
+
